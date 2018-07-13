@@ -65,6 +65,8 @@
         </style>
     </head>
     <body>
-        Welcome to cars project
+        <!-- Welcome to cars project -->
+        <div>welcome {{$name}}</div>
+        <div>I'm {{$age}} years old.</div>
     </body>
 </html>
