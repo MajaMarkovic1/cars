@@ -15,8 +15,10 @@
     <div class="blog-masthead">
         <div class="container">
             <nav class="nav blog-nav">
-                <a class="nav-link active" href="cars">Cars</a>
-                <a class="nav-link" href="about">About</a> 
+                <a class="nav-link active" href="{{ url('cars') }}">Cars</a>
+                <a class="nav-link" href="{{ url('about') }}">About</a> 
+            
+                
             </nav>
         </div>
     </div>
