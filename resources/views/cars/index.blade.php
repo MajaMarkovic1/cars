@@ -1,20 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+@extends('cars.layouts.master')
+
+@section('content')
    
         @foreach($cars as $car)
         <div><a href='cars/{{$car->id}}'>{{ $car->title }}</a></div>
-        <div>{{ $car->producer }}</div>
-        <div>{{ $car->number_of_doors }}</div>
-        <br>
-        
+
         @endforeach
+
+@endsection
     
-</body>
-</html>
+
