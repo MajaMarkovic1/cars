@@ -20,6 +20,6 @@ Route::get('/', function () {
 Route::get('/about', function(){
     return view('about');
 });
-
+//drugi nacin
 Route::get('/cars', 'CarsController@index');
 Route::get('/cars/{id}', 'CarsController@show');
